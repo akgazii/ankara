@@ -1,0 +1,2 @@
+sa kizlar
+porno

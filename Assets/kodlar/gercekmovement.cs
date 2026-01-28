@@ -3,6 +3,9 @@ using UnityEngine.InputSystem;
 
 public class gercekmovement : MonoBehaviour
 {
+
+    //movement benim 
+    //movementlarprodur dan inputları çekiyorum
     public float hizlar = 5f;
     public float ziplama = 8f;
 

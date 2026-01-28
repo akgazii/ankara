@@ -9,6 +9,7 @@ public class movementlarprodur : MonoBehaviour
 
 
     //BEN BİR İNPUTHEADLERIM MOVEMENT DEĞİL!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
+    //İNTUDER OLARAK İMPUTLARI "oyuncular" (yaram gibi isim) dan çekiyorum değiştirmeyin sikerim
     public void Awake()
     {
       oyuncular = new Oyuncular();

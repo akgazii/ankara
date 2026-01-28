@@ -1,0 +1,91 @@
+{
+    "version": 1,
+    "name": "Oyuncular",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "c36b9c24-7f15-47c0-a95f-eac17432ca01",
+            "actions": [
+                {
+                    "name": "haraket",
+                    "type": "Value",
+                    "id": "52cb1b3d-3f7a-45be-b9d2-c39c92384ae5",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "14134f02-8187-4de0-b219-d57433815e8e",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "haraket",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "c6e8fa35-cd32-40bd-a0b5-64f2f720813b",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";klavye",
+                    "action": "haraket",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "0141f54f-72fa-4a12-8e45-7d9a0d5ef9a5",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";klavye",
+                    "action": "haraket",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "56dfb428-6c6a-431c-b169-62fffea5cabd",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";klavye",
+                    "action": "haraket",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "d42a1f49-b8e5-4d0f-8b5c-304dd5ca86dc",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";klavye",
+                    "action": "haraket",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "klavye",
+            "bindingGroup": "klavye",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

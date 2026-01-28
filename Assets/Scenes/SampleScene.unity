@@ -134,6 +134,8 @@ GameObject:
   - component: {fileID: 497370702}
   - component: {fileID: 497370705}
   - component: {fileID: 497370704}
+  - component: {fileID: 497370706}
+  - component: {fileID: 497370707}
   m_Layer: 0
   m_Name: seytan
   m_TagString: Untagged
@@ -280,6 +282,37 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.9817327, y: 2.7156677}
   m_EdgeRadius: 0
+--- !u!114 &497370706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497370701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d84474875ee884642bd5f31301fa3eda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &497370707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497370701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a5d76c14bd8dd468c5874e68d8917a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hizlar: 5
+  ziplama: 5
+  groundCheck: {fileID: 0}
+  groundCheckRadius: 0.1
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
